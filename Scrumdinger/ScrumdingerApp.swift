@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct ScrumdingerApp: App {
+struct ScrumdingerApp: App { //this is the entry point
+    
+    @State private var scrums = DailyScrum.sampleData
+    
     var body: some Scene {
         WindowGroup {
-            ScrumsView(scrums: DailyScrum.sampleData)
+            ScrumsView(scrums: $scrums) //the scrumsView is the root view
         }
     }
 }
