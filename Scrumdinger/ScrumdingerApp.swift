@@ -14,7 +14,15 @@ struct ScrumdingerApp: App { //this is the entry point
     
     var body: some Scene {
         WindowGroup {
-            ScrumsView(scrums: $store.scrums) //the scrumsView is the root view
+            ScrumsView(scrums: $store.scrums) {//the scrumsView is the root view
+                Task{
+                    do {
+                        try await store.save(scrums: store.scrums)
+                    }catch{
+                        fatalError(error.localizedDescription)
+                    }
+                }
+            }
                 .task{
                     do{
                         try await store.load()
