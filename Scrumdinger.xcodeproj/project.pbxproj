@@ -31,6 +31,7 @@
 		E1FDC39E2A7D7F2C002F5A0C /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1FDC39D2A7D7F2C002F5A0C /* ding.wav */; };
 		E1FDC3A02A7D8586002F5A0C /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDC39F2A7D8586002F5A0C /* NewScrumSheet.swift */; };
 		E1FDC3A22A7D8B7A002F5A0C /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDC3A12A7D8B7A002F5A0C /* History.swift */; };
+		E1FDC3A42A815F0C002F5A0C /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDC3A32A815F0C002F5A0C /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		E1FDC39D2A7D7F2C002F5A0C /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ding.wav; path = ../../../../Downloads/ManagingStateAndLifeCycle/StartingProject/Scrumdinger/Resources/ding.wav; sourceTree = "<group>"; };
 		E1FDC39F2A7D8586002F5A0C /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		E1FDC3A12A7D8B7A002F5A0C /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		E1FDC3A32A815F0C002F5A0C /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				E1FDC3712A7ACB53002F5A0C /* Theme.swift */,
 				E1FDC3732A7ACD6C002F5A0C /* DailyScrum.swift */,
 				E1FDC3A12A7D8B7A002F5A0C /* History.swift */,
+				E1FDC3A32A815F0C002F5A0C /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				E1FDC3952A7D721B002F5A0C /* ScrumTimer.swift in Sources */,
 				E1FDC3742A7ACD6C002F5A0C /* DailyScrum.swift in Sources */,
 				E1FDC3962A7D721B002F5A0C /* AVPlayer+Ding.swift in Sources */,
+				E1FDC3A42A815F0C002F5A0C /* ScrumStore.swift in Sources */,
 				E1FDC3992A7D751A002F5A0C /* MeetingFooterView.swift in Sources */,
 				E1FDC3882A7AF807002F5A0C /* DetailView.swift in Sources */,
 				E1FDC3902A7D5936002F5A0C /* MeetingHeaderView.swift in Sources */,
