@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E19B3A412A81CBD000DB367D /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B3A402A81CBD000DB367D /* ErrorWrapper.swift */; };
+		E19B3A432A81CCCB00DB367D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B3A422A81CCCB00DB367D /* ErrorView.swift */; };
+		E19B3A452A81D37800DB367D /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B3A442A81D37800DB367D /* MeetingTimerView.swift */; };
+		E19B3A472A81D6DB00DB367D /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B3A462A81D6DB00DB367D /* SpeakerArc.swift */; };
 		E1FDC3472A7AAE22002F5A0C /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDC3462A7AAE22002F5A0C /* ScrumdingerApp.swift */; };
 		E1FDC3492A7AAE22002F5A0C /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDC3482A7AAE22002F5A0C /* MeetingView.swift */; };
 		E1FDC34B2A7AAE24002F5A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FDC34A2A7AAE24002F5A0C /* Assets.xcassets */; };
@@ -52,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E19B3A402A81CBD000DB367D /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		E19B3A422A81CCCB00DB367D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		E19B3A442A81D37800DB367D /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		E19B3A462A81D6DB00DB367D /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		E1FDC3432A7AAE22002F5A0C /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FDC3462A7AAE22002F5A0C /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		E1FDC3482A7AAE22002F5A0C /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -177,6 +185,7 @@
 				E1FDC3732A7ACD6C002F5A0C /* DailyScrum.swift */,
 				E1FDC3A12A7D8B7A002F5A0C /* History.swift */,
 				E1FDC3A32A815F0C002F5A0C /* ScrumStore.swift */,
+				E19B3A402A81CBD000DB367D /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +202,9 @@
 				E1FDC38F2A7D5936002F5A0C /* MeetingHeaderView.swift */,
 				E1FDC3982A7D751A002F5A0C /* MeetingFooterView.swift */,
 				E1FDC39F2A7D8586002F5A0C /* NewScrumSheet.swift */,
+				E19B3A422A81CCCB00DB367D /* ErrorView.swift */,
+				E19B3A442A81D37800DB367D /* MeetingTimerView.swift */,
+				E19B3A462A81D6DB00DB367D /* SpeakerArc.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,10 +352,14 @@
 				E1FDC38E2A7C45B8002F5A0C /* ThemePicker.swift in Sources */,
 				E1FDC3922A7D612F002F5A0C /* ScrumProgressViewStyle.swift in Sources */,
 				E1FDC3952A7D721B002F5A0C /* ScrumTimer.swift in Sources */,
+				E19B3A472A81D6DB00DB367D /* SpeakerArc.swift in Sources */,
+				E19B3A432A81CCCB00DB367D /* ErrorView.swift in Sources */,
 				E1FDC3742A7ACD6C002F5A0C /* DailyScrum.swift in Sources */,
+				E19B3A452A81D37800DB367D /* MeetingTimerView.swift in Sources */,
 				E1FDC3962A7D721B002F5A0C /* AVPlayer+Ding.swift in Sources */,
 				E1FDC3A42A815F0C002F5A0C /* ScrumStore.swift in Sources */,
 				E1FDC3992A7D751A002F5A0C /* MeetingFooterView.swift in Sources */,
+				E19B3A412A81CBD000DB367D /* ErrorWrapper.swift in Sources */,
 				E1FDC3882A7AF807002F5A0C /* DetailView.swift in Sources */,
 				E1FDC3902A7D5936002F5A0C /* MeetingHeaderView.swift in Sources */,
 				E1FDC3A02A7D8586002F5A0C /* NewScrumSheet.swift in Sources */,
